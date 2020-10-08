@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Elin Nordin - Future frontend developer</title>
+
+  <!--Links (stylesheet, google fons, fontawsome)-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Sanchez&family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar">
+    <ul>
+      <li><a id="homepageNav" href="#homepage">Home</a></li>
+      <li><a id="portfolioNav" href="#portfolio">Portfolio</a></li>
+      <li><a id="aboutNav" href="#about">About me</a></li>
+      <li><a id="feedbackNav" href="#feedback">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!--Homepage-->
+  <section id="homepage">
+    <div class="content">
+      <div class="textbox">
+        <h1 class="heading">Hi there, I'm Elin</h1>
+        <h2 class="subheading">A future frontend developer</h2>
+        <p class="info">I'm a current student at Hyper Island Stockholm learning how to code, how to become a great teamplayer and how to be as creative as I can be. I was born and raised in a small town called Bro in the northern parts of Stockholm,
+          but I currently live in Järvastaden, Solna. Welcome to my webpage!</p>
+        <a class="button" href="#contact" type="button" name="button">Get in touch</a>
+      </div>
+      <img src="Images/Main-img.PNG" alt="Sketch of me">
+    </div>
+
+    <hr class="divider1">
+  </section>
+
+
+  <!--Portfolio-->
+  <section id="portfolio">
+    <div class="portfolio-box">
+      <h2 class="heading">My Portfolio</h2>
+      <iframe src="https://www.youtube.com/embed/5y--77J4IJ4"></iframe>
+      <div class="textbox">
+        <h3 class="project-name">Hyper Island Application task</h3>
+        <p class="description">This is my little video about Bob who wants to help our environment. <br /><br />
+          <span>Fun fact 1:</span> My dad (who is very consious about the environment) keeps linking this video to his friends when they are discussing environmental issues, telling them that they should be more like Bob. <br /><br />
+          <span>Fun fact 2:</span> One month after I got in to Hyper I actually came across a company called <a href="https://www.pantapa.se/">PantaPå</a> that has developed an app with the exact same concept as my idea. Luckily the student
+          recruitment team was as unaware of the company as I was.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--About-->
+  <section id="about">
+    <h2 class="heading">Things I have on my bucket list</h2>
+
+    <div class="box-container">
+      <div id="bucket1" class="overlapping-box">
+        <p class="click-me">Click me</p>
+      </div>
+      <div class="bucket-box">
+        <img src="Images/harmonica-img.PNG" alt="Harmonica-img">
+        <h3 class="subheading">Learn how to play the harmonica</h3>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div id="bucket2" class="overlapping-box">
+        <p class="click-me">Click me</p>
+      </div>
+      <div class="bucket-box">
+        <img src="Images/scuba-img.PNG" alt="Scuba-img">
+        <h3 class="subheading">Scubadive with mantarays</h3>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div id="bucket3" class="overlapping-box">
+        <p class="click-me">Click me</p>
+      </div>
+      <div class="bucket-box">
+        <img src="Images/dance-img.PNG" alt="Dance-img">
+        <h3 class="subheading">Dance salsa in Latin America</h3>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div id="bucket4" class="overlapping-box">
+        <p class="click-me">Click me</p>
+      </div>
+      <div class="bucket-box">
+        <img src="Images/machu-img.PNG" alt="Machu-pichu-img">
+        <h3 class="subheading">Hike Machu Pichu</h3>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div id="bucket5" class="overlapping-box">
+        <p class="click-me">Click me</p>
+      </div>
+      <div class="bucket-box">
+        <img src="Images/seal-img.PNG" alt="Seal-img">
+        <h3 class="subheading">Snorkle with seals</h3>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div id="bucket6" class="overlapping-box">
+        <p class="click-me">Click me</p>
+      </div>
+      <div class="bucket-box">
+        <img src="Images/hike-img.PNG" alt="Hike-img">
+        <h3 class="subheading">Hike a vulcano</h3>
+      </div>
+    </div>
+
+    <hr class="divider2">
+
+  </section>
+
+
+  <!--Feedback-->
+  <section id="feedback">
+    <h2 class="heading">Send me feedback</h2>
+
+    <form class="feedback-form" action="mailto:elin.nordin@hyperisland.com" method="post" name="EmailForm">
+      <label for="radio">Did you find what you were looking for?</label><br>
+      <label class="radio-container">
+        <input class="radio-choice" type="radio" name="choice" value="Yes">
+        <span class="checkbox"></span>
+        <label class="radio-text" for="Yes">Yes</label>
+      </label>
+      <label class="radio-container">
+        <input class="radio-choice" type="radio" name="choice" value="No">
+        <span class="checkbox"></span>
+        <label class="radio-text" for="No">No</label>
+      </label>
+      <br>
+      <label for="range">How was your overall experience?</label><br>
+      <input class="slider" type="range" name="range" value="50"> <br>
+      <label for="text">Your name (optional):</label> <br>
+      <input class="form-text" type="text"> <br>
+      <label for="text">Other comments, ideas or suggestions:</label> <br>
+      <textarea class="form-text" name="text" rows="8" cols="59%"></textarea> <br>
+      <label for="submit"></label>
+      <input class="submit-button" type="submit" name="submit" value="Send feedback">
+    </form>
+
+    <div class="image-box">
+      <a href="learnings.html"><img src="Images/reach-out-img.PNG" alt="Contact-img"></a>
+    </div>
+  </section>
+
+
+  <!--Footer-->
+  <footer id="footer">
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/elinnordin-2236/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+      <a href="mailto:elin.nordin@hyperisland.com"><i class="fas fa-2x fa-envelope"></i></a>
+      <a href="https://www.instagram.com/elinordin/?hl=sv" target="_blank"><i class="fab fa-2x fa-instagram"></i></a>
+      <a href="https://www.facebook.com/elinevelinan/" target="_blank"><i class="fab fa-2x fa-facebook"></i></a>
+      <p class="copyright">&copy; Elin Nordin 2020</p>
+    </div>
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
